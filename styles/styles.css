@@ -398,10 +398,77 @@ body {
     display: none;
 }
 
+/* accessories */
 .accessories {
     display: none;
 }
 
+/* customers-say */
+.customers-say {
+    background: #F3F7FC;
+}
+
+.customers-say-heading {
+    color: #00263D;
+    text-align: center;
+    padding-top: 71px;
+    padding-bottom: 61px;
+    font-size: 46px;
+    font-weight: 800;
+    font-family: 'Open Sans';
+    margin: 0;
+}
+
+.customers-style {
+    display: flex;
+    gap: 38px;
+    width: 60%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.customers {
+    width: 505px;
+    height: 216px;
+    border-radius: 24px;
+    background: #CCF2DD;
+    text-align: center;
+    margin-bottom: 109px;
+}
+
+
+.customers img {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.customers-details {
+    width: 378px;
+    margin: auto;
+    padding-left: 63px;
+    padding-right: 64px
+}
+
+.customers h5 {
+    color: #005451;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.customers p {
+    color: #005451;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin: 0;
+    padding-top: 5px;
+}
+
+/* footer */
 footer {
     background: #00263D;
 }
@@ -412,10 +479,11 @@ footer p {
     padding-bottom: 50px;
     color: #FFF;
     font-size: 20px;
-    font-family: 'Source Sans 3';
+    font-family: 'Open Sans';
     font-weight: 500;
     margin: 0;
 }
+
 
 /* Responsive styles for mobile */
 @media screen and (max-width: 767px) {
@@ -650,11 +718,10 @@ footer p {
     .pagination-dot.active {
         background-color: #F15B4E;
     }
+
     footer p {
         padding-top: 5px;
         padding-bottom: 5px;
         font-size: 12px;
-
-
     }
 }
