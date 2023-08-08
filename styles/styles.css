@@ -1,0 +1,660 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    padding: 35px 0 35px 213px;
+}
+
+.nav-links {
+    display: flex;
+    z-index: 10;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    font-family: 'Source Sans 3';
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #FFF;
+}
+
+.nav-links a:hover {
+    background-color: #ECF2F8;
+}
+
+.mobile-icon {
+    display: none;
+    padding: 10px 16px 10px 0;
+}
+
+.rectangle-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.rectangle-image {
+    width: 20px;
+}
+
+.get-in-touch-button {
+    margin: 21px 213px 21px 0;
+    display: flex;
+    width: 180px;
+    height: 46px;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    border: 0px solid #F15B4E;
+    border-radius: 100px;
+    background: #F15B4E;
+}
+
+.get-in-touch {
+    color: #FFF;
+    font-family: 'Source Sans 3';
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.get-in-touch-img {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+
+/*top section */
+
+.top {
+    background-color: #ECF2F8;
+    text-align: center;
+    padding: 115px 0 51px 0;
+    color: #00263D;
+    font-family: 'Montserrat';
+    position: relative;
+}
+
+.top h1 {
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 44px;
+}
+
+.h1-pick-word {
+    color: #F15B4E;
+}
+
+.top p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 610px;
+    font-family: 'Source Sans 3';
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 21px;
+}
+
+.p-pick-word {
+    font-weight: 400;
+}
+
+.top-button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* jewelry photography  */
+
+.photos {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+}
+
+.photo {
+    width: 180px;
+    height: 180px;
+}
+
+.photo1-container {
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    transform: rotate(-45deg);
+    opacity: 0.4;
+}
+
+.photo1-container:hover,
+.photo2-container:hover,
+.photo4-container:hover,
+.photo5-container:hover {
+    opacity: 1;
+}
+
+.photo2-container {
+    position: absolute;
+    bottom: 16%;
+    left: 220px;
+    transform: rotate(-45deg);
+    opacity: 0.4;
+}
+
+.photo3-container {
+    width: 340px;
+    height: 340px;
+    margin: auto;
+    position: relative;
+    border-radius: 50%;
+    border: 51px solid #FBFEFF;
+    box-shadow: 0px -8px 11px 0px rgba(42, 92, 122, 0.05);
+}
+
+.photo3 {
+    width: 361.465px;
+    height: 370.909px;
+    position: absolute;
+    bottom: 0px;
+    left: -10px;
+
+}
+
+.photo4-container {
+    position: absolute;
+    bottom: 16%;
+    right: 220px;
+    transform: rotate(-45deg);
+    opacity: 0.4;
+}
+
+.photo5-container {
+    position: absolute;
+    top: 50%;
+    right: 70px;
+    transform: rotate(-45deg);
+    opacity: 0.4;
+}
+
+
+
+/* slide  */
+.slider-container {
+    overflow: hidden;
+    width: 60%;
+    margin: 40px auto 22px auto;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    padding: 10px;
+}
+
+.slide-img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Jewelry Photography Section   */
+
+.jewelry-photography {
+    background-color: #ECF2F8;
+}
+
+.jewelry-photography-1st-heading {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.jewelry-photography-1st-heading1,
+.jewelry-photography-2nd-heading2 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+    color: #00263D;
+    font-family: 'Montserrat';
+}
+
+.jewelry-photography-1st-heading2,
+.jewelry-photography-2nd-heading1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 500;
+    color: #00263D;
+    font-family: 'Montserrat';
+}
+
+.jewelry-photography-products {
+    background-color: white;
+    margin-left: 150px;
+    display: flex;
+}
+
+.jewelry-photography-2nd-heading {
+    width: 391px;
+    padding: 225px 27px 0 120px;
+}
+
+.jewelry-photography-2nd-description {
+    color: #00263D;
+    margin: 0;
+    font-family: 'Source Sans 3';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    letter-spacing: 0.64px;
+    padding-top: 58px;
+}
+
+.left-right-button {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+/* slider 2  */
+
+.slider2-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.slider2 {
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.slide2 {
+    margin: 58px 19px 60px 0;
+    background: #FFF;
+    box-shadow: 0px 2px 8px 0px #DDECF4;
+}
+
+.slide2 img {
+    height: 460px;
+}
+
+.slide-details {
+    margin: 0;
+    padding: 25px 0 35px 49px;
+}
+
+.slide2-heading {
+    color: #F15B4E;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 0 4px 0;
+}
+
+.slide2-description {
+    color: #00263D;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+
+}
+
+.slide2-size {
+    opacity: 0.7;
+    color: #00263D;
+    font-family: Montserrat;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0 0 24px 0;
+
+}
+
+.slide2-size-heading {
+    color: #00263D;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.horizental-line {
+    width: 370px;
+    height: 1px;
+    opacity: 0.07;
+    background: #00263D;
+    margin: 0 0 43px 0;
+
+}
+
+.slide-box {
+    display: flex;
+    gap: 7px;
+}
+
+.slide-box p {
+    display: inline-flex;
+    padding: 4px 18px;
+    align-items: flex-start;
+    border-radius: 4px;
+}
+
+.slide-box .degree {
+    border: 1px solid #9E88F2;
+}
+
+.slide-box .still {
+    border: 1px solid #5BD1CA;
+}
+
+.slide-box .version {
+    border: 1px solid #98B8F6;
+    ;
+}
+
+.slide-box .video {
+    border: 1px solid #FBBFB2;
+}
+
+.finished-jewelry {
+    display: none;
+}
+
+.loose-stones {
+    display: none;
+}
+
+.slider2-button {
+    cursor: pointer;
+}
+
+.pagination {
+    display: none;
+}
+
+.accessories {
+    display: none;
+}
+
+footer {
+    background: #00263D;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 51px;
+    padding-bottom: 50px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Source Sans 3';
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Responsive styles for mobile */
+@media screen and (max-width: 767px) {
+
+    /* navbar  */
+    .logo {
+        padding: 10px 0 10px 16px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 100px;
+        width: 100%;
+    }
+
+    .desktop-view {
+        display: none;
+    }
+
+    .nav-links a {
+        padding: 10px 20px;
+    }
+
+    .show-nav {
+        display: flex;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .mobile-icon {
+        display: block;
+    }
+
+
+    /*top section - jewelry photography  */
+
+    .top {
+        padding-top: 67px;
+    }
+
+    .top h1 {
+        width: 328px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+
+    .top p {
+        width: 284px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .p-pick-word {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .photo1-container,
+    .photo2-container,
+    .photo4-container,
+    .photo5-container {
+        display: none;
+    }
+
+    .photo3-container {
+        width: 200px;
+        height: 200px;
+        margin-top: 71px;
+    }
+
+    .photo3 {
+        width: 220px;
+        height: 230px;
+        bottom: 0px;
+        right: 0px;
+    }
+
+
+    /* slide  */
+    .slider-container {
+        width: 100%;
+        margin: 8px 0 10px 0;
+    }
+
+    .slide {
+        flex: 0 0 28.57%;
+    }
+
+    /* jewelry-photography  */
+
+    .jewelry-photography-1st-heading {
+        display: none;
+    }
+
+    .jewelry-photography-2nd-heading2 {
+        font-size: 22px;
+    }
+
+    .jewelry-photography-2nd-heading1 {
+
+        font-size: 22px;
+    }
+
+    .jewelry-photography-products {
+        background-color: white;
+        margin-left: 0px;
+        display: block;
+    }
+
+    .jewelry-photography-2nd-heading {
+        width: 320px;
+        padding: 36px 0 49px 40px;
+    }
+
+    .jewelry-photography-2nd-description {
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: 0.56px;
+        padding-top: 38px;
+    }
+
+    .left-right-button {
+        display: none;
+    }
+
+    /* slider 2  */
+
+    .slider2-container {
+        display: flex;
+        overflow: hidden;
+    }
+
+    .slider2 {
+        display: flex;
+        transition: transform 0.5s ease-out;
+    }
+
+    .slide2 {
+        width: 259px;
+        margin: 0 9px 33px 8px;
+        background: #FFF;
+        box-shadow: 0px 2px 8px 0px #DDECF4;
+    }
+
+    .slide2 img {
+        height: 268px;
+    }
+
+    .slide-details {
+        margin: 0;
+        padding: 14px 0 22px 27px;
+    }
+
+    .slide2-heading {
+        font-size: 14px;
+        margin: 0 0 2px 0;
+    }
+
+    .slide2-description {
+        font-size: 10px;
+        margin: 0 0 11px 0;
+
+    }
+
+    .slide2-size {
+        font-size: 9px;
+        margin: 0 0 20px 0;
+    }
+
+    .slide2-size-heading {
+        font-size: 9px;
+    }
+
+    .horizental-line {
+        width: 209px;
+        height: 1px;
+        margin: 0 0 21px 0;
+
+    }
+
+    .slide-box {
+        display: flex;
+        gap: 4px;
+    }
+
+    .slide-box p {
+        display: inline-flex;
+        padding: 2px 11px;
+        align-items: flex-start;
+        border-radius: 4px;
+    }
+
+    .finished-jewelry {
+        display: inline-flex;
+        padding: 2px 11px;
+        align-items: flex-start;
+        border-radius: 4px;
+        margin: 0;
+        border: 1px solid #5BD1CA;
+
+    }
+
+    .loose-stones {
+        display: inline-flex;
+        padding: 2px 11px;
+        align-items: flex-start;
+        border-radius: 4px;
+        margin: 0;
+        border: 1px solid #5BD1CA;
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .pagination-dot {
+        width: 100%;
+        height: 10px;
+        background-color: gray;
+        cursor: pointer;
+    }
+
+    .pagination-dot.active {
+        background-color: #F15B4E;
+    }
+    footer p {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 12px;
+
+
+    }
+}
